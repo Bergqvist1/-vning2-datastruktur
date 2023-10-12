@@ -1,0 +1,4 @@
+C:\Users\Admin\Documents\GitHub\-vning2-datastruktur\obj\Debug\net7.0\-vning2-datastruktur.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\-vning2-datastruktur\obj\Debug\net7.0\-vning2-datastruktur.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\-vning2-datastruktur\obj\Debug\net7.0\-vning2-datastruktur.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\-vning2-datastruktur\obj\Debug\net7.0\-vning2-datastruktur.csproj.CoreCompileInputs.cache
