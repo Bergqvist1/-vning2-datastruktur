@@ -16,7 +16,7 @@ foreach(char c in input)
         (
             (c == ')' && start != '(') ||
             (c == '}' && start != '{') ||
-            (c == ']' && start != '[') ||
+            (c == ']' && start != '[') 
         )
         {
             balanced = false;
