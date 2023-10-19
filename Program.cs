@@ -1,37 +1,35 @@
-﻿const string input = "[()]{}{[()()]()}";
-Stack<char> stack = new Stack<char>();
-bool balance = true;
+﻿const string input = "[()]{}{[()()]}";
+Stack<char> stack = new Stack<char>(); 
+bool balanced = true; 
 
 foreach(char c in input)
 {
-    if(c == '[' || c=='(' || c=='{')
+    if(c == '[' || c == '{' ||  c == '(')
     {
-        stack.Push(c);
+        stack.Push(c); 
     }
 
-    else 
+    else
     {
         char start = stack.Pop();
-        if
-        (
+        if(
             (c == ')' && start != '(') ||
-            (c == '}' && start != '{') ||
-            (c == ']' && start != '[') 
+            (c == ']' && start != '[') ||
+            (c == '}' && start != '{') 
         )
         {
             balanced = false;
             break;
         }
-
     }
 }
 
 if(balanced)
 {
-    Console.WriteLine("Balanced");
+    Console.WriteLine("String is balanced");
 }
 
 else
 {
-    Console.WriteLine("Not Balanced");
+    Console.WriteLine("String is not balanced");
 }
